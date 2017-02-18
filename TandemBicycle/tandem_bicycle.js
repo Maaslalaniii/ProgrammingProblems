@@ -21,5 +21,7 @@ function tandem(Q, N, D, P) {
 
   // Finds total speed by adding the speeds of all the bicycles. 
   return bicycles.reduce((sum, pair) => sum + Math.max(pair[0], pair[1]), 0)
-
+  
 }
+
+module.exports = tandem
